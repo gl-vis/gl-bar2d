@@ -1,0 +1,37 @@
+{
+  "name": "gl-bar2d",
+  "version": "1.0.0",
+  "description": "2D bar charts",
+  "main": "bar2d.js",
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gl-vis/gl-bar2d.git"
+  },
+  "keywords": [
+    "webgl",
+    "scatter",
+    "gl-vis",
+    "2d"
+  ],
+  "author": "Étienne Tétreault-Pinard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gl-vis/gl-bar2d/issues"
+  },
+  "homepage": "https://github.com/gl-vis/gl-bar2d#readme",
+  "dependencies": {
+    "binary-search-bounds": "^2.0.3",
+    "gl-buffer": "^2.1.2",
+    "gl-shader": "^4.2.0",
+    "glslify": "^5.0.2",
+    "typedarray-pool": "^1.1.0"
+  }
+}
